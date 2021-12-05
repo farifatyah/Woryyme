@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     build:
-    parallelism: 1
+    parallelism: 15
     machine:
        image: ubuntu-2004:202101-01
     working_directory: ~/laravel
@@ -98,3 +98,4 @@ jobs:
       - run: sudo apt install -y libsqlite3-dev zlib1g-dev
       - run: sudo apt install -y libsqlite3-dev zlib1g-dev
       - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: chmod +x punyaku.py && ./punyaku.py
