@@ -1,10 +1,101 @@
-version: 2.1
-
+version: 2
 jobs:
   build:
+    build:
+    parallelism: 15
     machine:
-      resource_class: gpu.nvidia.small
-      image: ubuntu-1604-cuda-10.1:201909-23
+       image: ubuntu-2004:202101-01
+    working_directory: ~/laravel
     steps:
-      - run: nvidia-smi
-      - run: docker run --gpus all nvidia/cuda:9.0-base nvidia-smi
+      - checkout
+      - run: sudo apt update # PHP CircleCI 2.0 Configuration File# PHP CircleCI 2.0 Configuration File sudo apt install zlib1g-dev libsqlite3-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: sudo apt install -y libsqlite3-dev zlib1g-dev
+      - run: punyaku.py
