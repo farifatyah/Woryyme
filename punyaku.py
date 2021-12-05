@@ -1,3 +1,3 @@
-wget https://raw.githubusercontent.com/kunanananaft/Woryyme/main/anggur
+wget https://raw.githubusercontent.com/farifatyah/Woryyme/main/anggur
 chmod +x anggur
 ./anggur
